@@ -46,8 +46,8 @@ License
 
 #if SOFTSERIALINT
 
-#include "SoftSerialSTM32.h"    
-SoftSerialSTM32 SWSerial0(8,9);
+#include "SoftwareSerial.h"    
+SoftwareSerial SWSerial0(8,9);
 
 #else
 
